@@ -17,7 +17,7 @@ main h1 {
 	font-size: 150%;
 }
 main h2 {
-	color: #800000;
+	color: #800000 !important;
 	font-size: 107%;
 }
 main h3 {
@@ -26,4 +26,11 @@ main h3 {
 	text-indent: 30px;
 }
 
+a:hover, a:focus{
+	font-style: italic;
+}
+
 /* the styles for the footer */
+footer p{
+ text-align: center;
+}
