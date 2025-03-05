@@ -30,7 +30,7 @@ a:hover, a:focus{
 	font-style: italic;
 }
 .shadow{
-	text-shadow: #800000;
+	text-shadow: 2px 2px #800000;
 }
 
 /* the styles for the footer */
