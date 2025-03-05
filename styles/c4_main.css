@@ -29,6 +29,9 @@ main h3 {
 a:hover, a:focus{
 	font-style: italic;
 }
+.shadow{
+	text-shadow: #800000;
+}
 
 /* the styles for the footer */
 footer p{
