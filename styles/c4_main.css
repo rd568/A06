@@ -17,7 +17,7 @@ main h1 {
 	font-size: 150%;
 }
 main h2 {
-	color: #800000 !important;
+	color: var(--global-color-1) !important;
 	font-size: 107%;
 }
 main h3 {
@@ -30,10 +30,15 @@ a:hover, a:focus{
 	font-style: italic;
 }
 .shadow{
-	text-shadow: 2px 2px #800000;
+	text-shadow: 2px 2px var(--global-color-1);
 }
 
 /* the styles for the footer */
 footer p{
  text-align: center;
 }
+
+:root{
+	--global-color-1: #800000;
+}
+
